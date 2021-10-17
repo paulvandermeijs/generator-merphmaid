@@ -1,0 +1,21 @@
+{
+  "name": "generator-merphmaid",
+  "version": "1.0.0",
+  "description": "Generate PHP classes from Mermaid class diagrams",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Paul van der Meijs <code@paulvandermeijs.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "change-case": "^4.1.2",
+    "generator-phab": "^1.6",
+    "gulp-prettier": "^4.0.0",
+    "mermaid": "^8.13.3",
+    "yeoman-generator": "^1.0.0"
+  }
+}
